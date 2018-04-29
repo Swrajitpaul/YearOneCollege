@@ -1,16 +1,22 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
-int main () {
-int n;
-cin >> n;
-for (int r = 1; r <= n; ++r) {
- for (int c = 1; c <= n; ++c) {
- if ((r +c  == 5 && r <= (n+1)/2 ))
- cout << "*";
- else
- cout << " ";
- }
- cout << endl;
+int number(int n) {
+   for (int c=1; c <= n; c++)
+      cout << c << endl;
 }
+int spaces(int n) {
+   for (int c=1; c <= n; c++)
+      cout << " ";
+     cout << endl;
+}
+int main() {
+int x;
+cout << "enter" << endl;
+cin >> x;
+for (int r=1; r<=x; r++) {
+     cout << number(x);
+     cout << spaces(x-1);
+} 
 return 0;
 }

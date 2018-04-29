@@ -1,7 +1,3 @@
-//Paul, Swrajit
-//CS 111, HW 4,  monday and wednesday class
-//prints grades, average and the highest grade
-
 #include <iostream>
 using namespace std;
 int main () {
@@ -11,8 +7,6 @@ int main () {
    number = 1;
    cout << "Enter the score for student " << number << ":";
    cin >> g;
-   if ( g > max && ((g > 0) && (g <=100))) {
-      max= g; }
    while ( g != -1) {
       grade = grade + g;
       number = number +1; 
@@ -21,17 +15,16 @@ int main () {
          grade = grade - g;
          cout << "Try again.  Enter the score for student " << number << ":";
          cin >> g; 
-         if ( g > max && ((g > 0) && (g <=100))) { 
-            max= g; 
-         }
+         if ( g > max ) { 
+            max= g; }
       }
       else {
          cout << "Enter the score for student " << number << ":";
          cin >> g;
 	 if ( g > max && ((g > 0) && (g <=100))) 
 	    max =g;
-         }
       }
+   }
    cout << "The average is " << grade/(number-1) << endl;
    cout << "The highest score is " << max << endl;
    return 0;
