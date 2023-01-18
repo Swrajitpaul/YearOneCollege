@@ -21,4 +21,4 @@ If you would like to contribute to this repository, please submit a pull request
 Please note that these materials are intended for personal use only and should not be distributed or used for commercial purposes without my permission.
 
 ## Contact
-If you have any questions or need further assistance, please feel free to contact me at swrajitpaul@email.com.
+If you have any questions or need further assistance, please feel free to contact me at swrajitpaul@gmail.com.
